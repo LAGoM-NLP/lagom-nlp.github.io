@@ -685,15 +685,15 @@ html.transition *:after {
 // event descriptions
 .event-title {
   font-size: larger;
-  //color: var(--global-divider-color);
-  font-weight: bolder;
+  color: var(----global-text-color);
+  font-weight: bold;
   font-style: italic;
 }
 .events {
   h3 {
     font-size: medium;
     display: inline;
-    font-weight: bolder;
+    font-weight: bold;
   }
   div {
     margin-bottom: 10px;
