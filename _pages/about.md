@@ -7,7 +7,7 @@ subtitle:
 
 description: >
     Welcome!
-    We are the **Leuven AI Group on Multilingual NLP (LAGoM NLP)**, a research lab at the [Department of Computer Science](https://wms.cs.kuleuven.be/cs/english) at the University of Leuven (KU Leuven), directed by Prof. Dr. Miryam de Lhoneux.
+    We are the **Leuven AI Group on Multilingual NLP (LAGoM NLP)**, a research lab at the [Department of Computer Science](https://wms.cs.kuleuven.be/cs/english) at the University of Leuven (KU Leuven), directed by Prof.&nbsp;Dr.&nbsp;Miryam de Lhoneux.
 
 profile:
   align: right

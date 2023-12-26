@@ -45,14 +45,14 @@ layout: default
             {%- include news.html listofposts=site.news title="News" %}
         {%- endif %}
         {% if page.show_events %}
-            <!-- Events -->
+            <!-- Events 
             <h2 class="category">Events</h2>
             <ul>
                 {%- for e in site.events reversed limit: 3 -%}
                     <li>{{e.date | date: "%b %-d, %Y"}}: <a href="{{e.url}}">{{e.title}}</a></li>
                 {%- endfor -%}
             </ul>
-
+            -->
             {%- include news.html listofposts=site.events title="Events" %}
         {% endif %}
             

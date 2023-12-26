@@ -1,5 +1,5 @@
 {% assign event = include.event %}
-<hr>
+<div class="event">
 <h2 class="event-title" id="{{ event.anchor }}"><a href="{{ '#' | append: event.anchor }}">{{ event.title }}</a></h2>
 
 {% if event.speaker %}
@@ -36,4 +36,5 @@
 {% if event.website %}
   <a href="{{ event.website }}"> →&nbsp;Website</a>
 {% endif %}
+</div>
 </div>

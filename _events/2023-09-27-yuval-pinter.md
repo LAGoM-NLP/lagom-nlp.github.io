@@ -1,5 +1,7 @@
 ---
 anchor: 2023-09-27-yuval-pinter
+layout: event
+
 title: When Language Models Meet Words
 abstract: Over the last few years, deep neural models have taken over the field of natural language processing (NLP), brandishing great improvements on many of its sequence-level tasks. But the end-to-end nature of these models makes it hard to figure out whether the way they represent individual words aligns with how language builds itself from the bottom up, or how lexical changes in register and domain can affect the untested aspects of such representations, or which phenomena can be modeled by units smaller than the word. In this talk, I will present NYTWIT, a dataset created to challenge large language models (LLMs) at the lexical level, tasking them with identification of processes leading to the formation of novel English words, as well as with segmentation and recovery of the specific subclass of lexical blends, demonstrating the ways in which subword-tokenized LLMs fail to analyze them. I will then present Nakdimon, a lightweight Hebrew diacritizer that avoids tokenization artifacts by working at the character level alone; and SaGe, a subword tokenizer that incorporates context into the vocabulary creation objective.
 speaker: Dr. Yuval Pinter<br/>

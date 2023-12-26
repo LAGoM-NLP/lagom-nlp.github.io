@@ -9,8 +9,7 @@ nav_order: 5
 <div class="events">
     <!-- events are sorted by filename (reverse order) -->
     {%- for e in site.events reversed -%}
-        <div class="event">
-	        {% include event.html event=e %}
-        </div>
+        {% include format-event.html event=e %}
+        <hr>
     {%- endfor %}
 </div>
