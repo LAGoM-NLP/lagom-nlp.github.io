@@ -18,13 +18,38 @@ groups: [members, affiliated]
 members:
   title: Members
   people:
+    - name: Miryam de Lhoneux
+      description: Prof. Dr., Head of LAGoM NLP
+      website: https://people.cs.kuleuven.be/~miryam.delhoneux/
+      picture: https://media.licdn.com/dms/image/C4D03AQHPa7B6g4Ox3Q/profile-displayphoto-shrink_800_800/0/1549982999930?e=1709164800&v=beta&t=2CCKSDKBNkRWdmJNjWyc02FMJkwZPqHPtl7-yccPROo
+    - name: Kushal J. Tatariya
+      description: PhD student (2022–)
+      website: 
+      picture: https://media.licdn.com/dms/image/C4D03AQHawvM1ArUaIw/profile-displayphoto-shrink_800_800/0/1647871572663?e=1709164800&v=beta&t=L93kvzwuP2pQ9dcgTieC8LK6X1gJYd2ZZnFs-HDgIw8
+    - name: Thomas Bauwens
+      description: PhD student (2023–)
+      website: https://bauwenst.github.io/
+      picture: https://media.licdn.com/dms/image/D4D03AQEPzc_E1vJWLA/profile-displayphoto-shrink_800_800/0/1689027640596?e=1709164800&v=beta&t=IyBRnnVg0fg0M403BnxxCtRZp00kM1kVidvG_chCvkQ
+    - name: Wessel Poelman
+      description: PhD student (2023–)
+      website: https://wesselpoelman.nl/
+      picture: https://media.licdn.com/dms/image/D4E03AQFtGXi1irl-jQ/profile-displayphoto-shrink_800_800/0/1682423889310?e=1709164800&v=beta&t=K3L2ejprWwYfXFKRZSCRoO27sjG0juecLW6IIsnZEak
+    - name: Artur Kulmizev
+      description: Postdoc (2023–)
+      website: https://akulmizev.com/
+      picture: https://media.licdn.com/dms/image/C4D03AQG7nJOmd5_hug/profile-displayphoto-shrink_800_800/0/1549986124762?e=1709164800&v=beta&t=6OTo8MeyFuj7M7bikApnsiv1qVEi1OR-s00jhV8fbLI
 
 affiliated:
   title: Affiliated members (e.g. co-supervisors, co-supervised or mentored external PhD students, guest researchers and visitors)
   people:
+    - name: François Remy
+      description: 
+      website: https://fremycompany.com/
+      picture: 
 ---
 
 Welcome!
+We are the **Leuven AI Group on Multilingual NLP (LAGoM NLP)**, a research lab at the [Department of Computer Science](https://wms.cs.kuleuven.be/cs/english) at the University of Leuven (KU Leuven), directed by Prof. Dr. Miryam de Lhoneux.
 
 <div id="main-body" class="projects">
   <h2 class="category">News</h2>
@@ -100,6 +125,9 @@ Welcome!
   </ul>
 -->  
   <h2 class="category">Find us</h2>
-  Somewhere in the world.
+  We are located at Celestijnenlaan 200A, 3001 Heverlee, Belgium.<br/>
+
+  <a href="https://github.com/lagom-nlp"><i class="fab fa-github"></i> LAGoM on GitHub</a><br/>
+  <a href="https://twitter.com/mdlhx"><i class="fab fa-twitter"></i> Miryam on X</a><br/>
 
 </div>
