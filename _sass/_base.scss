@@ -7,7 +7,7 @@ p, h1, h2, h3, h4, h5, h6, em, div, li, span {
   color: var(--global-text-color);
 }
 
-p {
+body {
     font-size: 1.15rem;
 }
 
@@ -705,13 +705,9 @@ html.transition *:after {
 }
 
 // event descriptions
-.event-title {
-  font-size: larger;
-  color: var(----global-text-color);
-  font-weight: bold;
-  font-style: italic;
-}
-.events {
+.event {
+  overflow: auto;  // Make the div with class .event stretch to the end of its content.
+
   h3 {
     font-size: medium;
     display: inline;
@@ -720,21 +716,32 @@ html.transition *:after {
   div {
     margin-bottom: 10px;
   }
+  .event-title {
+    display: none;
+  }
+  .event-pic { 
+    margin-top: 10px;
+    width: 200px;
+    border-radius: 50%;
+    shape-outside: circle(50% at 50%);
+  }
+  .event-pic-left { 
+    float: left;
+    margin-right: 10px;
+  }
+  .event-pic-right { 
+    float: right;
+    margin-left: 10px;
+  }
 }
-.event {
-  margin-top: 50px;
-}
-.event-pic { 
-  margin-top: 10px;
-  width: 200px;
-  border-radius: 50%;
-  shape-outside: circle(50% at 50%);
-}
-.event-pic-left { 
-  float: left;
-  margin-right: 10px;
-}
-.event-pic-right { 
-  float: right;
-  margin-left: 10px;
+
+.events .event {  // An event inside a list of events
+    margin-top: 50px;
+
+    .event-title {
+        font-size: xx-large;
+        color: var(----global-text-color);
+        font-weight: bold;
+        font-style: italic;    
+    }
 }

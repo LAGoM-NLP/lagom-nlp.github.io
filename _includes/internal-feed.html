@@ -3,16 +3,16 @@
 <div class="news">
 <h2>{{pagetitle}}</h2>
 {% if listofposts != blank -%} 
-    {%- assign news_size = listofposts | size -%}
-    <div class="table-responsive" {% if site.news_scrollable and news_size > 3 %}style="max-height: 10vw"{% endif %}>
+    {%- assign feed_size = listofposts | size -%}
+    <div class="table-responsive" {% if site.feed_scrollable and feed_size > 3 %}style="max-height: 10vw"{% endif %}>
         <table class="table-sm table-borderless">
-        {%- assign news = listofposts | reverse -%}
-        {% if site.news_limit %}
-            {% assign news_limit = site.news_limit %}
+        {%- assign feed = listofposts | reverse -%}
+        {% if site.feed_limit %}
+            {% assign feed_limit = site.feed_limit %}
         {% else %}
-            {% assign news_limit = news_size %}
+            {% assign feed_limit = feed_size %}
         {% endif %}
-        {% for item in news limit: news_limit %} 
+        {% for item in feed limit: feed_limit %} 
         <tr>
             <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
             <td>
@@ -27,6 +27,6 @@
         </table>
     </div>
 {%- else -%} 
-    <p>No news so far...</p>
+    <p>No items so far...</p>
 {%- endif %} 
 </div>
