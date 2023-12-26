@@ -3,6 +3,7 @@ layout: default
 ---
 <div class="post">
     <article>
+        <!-- Description box with profile picture -->
         <div style="overflow:auto">
             {% if page.profile -%}
                 <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
@@ -33,18 +34,51 @@ layout: default
             </header>
             <p>{{ page.description | markdownify }}</p>  <!-- https://stackoverflow.com/a/21820968/9352077 -->
         </div>
-        <div class="clearfix">
+
+        <!-- Additional stuff inserted by about.md -->
+        <div class="clearfix projects">
             {{ content }}
         </div>
 
         {% if page.show_news -%}
             <!-- News -->
-            {%- include news.html %}
+            {%- include news.html listofposts=site.news title="News" %}
         {%- endif %}
+        {% if page.show_events %}
+            <!-- Events -->
+            <h2 class="category">Events</h2>
+            <ul>
+                {%- for e in site.events reversed limit: 3 -%}
+                    <li>{{e.date | date: "%b %-d, %Y"}}: <a href="{{e.url}}">{{e.title}}</a></li>
+                {%- endfor -%}
+            </ul>
+
+            {%- include news.html listofposts=site.events title="Events" %}
+        {% endif %}
+            
         {% if page.show_selected_papers -%}
             <!-- Selected papers -->
             {%- include selected_papers.html %}
         {%- endif %}
+
+        <!-- People -->
+        {%- include people.liquid %}
+
+        <!--
+        <h2 class="category">Funding</h2>
+        Our research is supported by:
+        <ul>
+            <li><a href="https://erc.europa.eu/homepage">European Research Council (ERC)</a> project <a href="https://mainlp.github.io/projects/#ongoingproj">DIALECT</a></li>
+            <li><a href="https://dff.dk/en">Danmarks Frie Forskningsfond (DFF)</a>, Sapere Aude Research Leader grant</li>
+            <li><a href="https://www.bayern.de/politik/hightech-agenda/">Bayerische Staatsregierung HTA</a></li>
+            <li><a href="https://mcml.ai/">Munich Center for Machine Learning (MCML)</a></li>
+            <li><a href="https://www.bidt.digital/">Bayerisches Forschungsinstitut für Digitale Transformation (bidt)</a></li>
+        </ul>
+        -->
+
+        <h2 class="category">Find us</h2>
+        We are located at Celestijnenlaan 200A, 3001 Heverlee, Belgium.<br/>
+
         {%- if page.show_socials %}
             <!-- Social -->
             <div class="social">

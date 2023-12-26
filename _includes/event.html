@@ -6,7 +6,7 @@
   <div><h3>Speaker:</h3> {{ event.speaker }}</div>
 {% endif %}
 
-<div><h3>Date:</h3> {{ event.date }} at {{ event.time }}
+<div><h3>Date:</h3> {{ event.date | date: "%F" }} at {{ event.time }}
 {% if event.location %}<br/>
   <h3>Location:</h3>
   {% if event.roomfinder %}
