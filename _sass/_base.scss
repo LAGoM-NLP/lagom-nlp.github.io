@@ -11,6 +11,11 @@ body {
     font-size: 1.15rem;
 }
 
+h1 {
+    font-size: 55px;
+    font-weight: 400;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -739,6 +744,7 @@ html.transition *:after {
     margin-top: 50px;
 
     .event-title {
+        display: block;
         font-size: xx-large;
         color: var(----global-text-color);
         font-weight: bold;
