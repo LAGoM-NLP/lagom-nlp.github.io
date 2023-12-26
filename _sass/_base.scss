@@ -430,8 +430,21 @@ footer.sticky-bottom {
 }
 
 
-// Projects
+// About page
+.about {
+    h2 {
+        border-bottom: 1px solid var(--global-divider-color);
+        margin-top: 40px;
+    }
 
+    .card {
+        img {
+          width: 150px;
+        }
+    }
+}
+
+// Projects
 .projects {
   a {
     text-decoration: none;
