@@ -6,7 +6,8 @@ speaker: Dr. Yuval Pinter<br/>
     Senior Lecturer at the Department of Computer Science of Ben-Gurion University
 bio: Yuval Pinter is a Senior Lecturer in the Department of Computer Science at Ben-Gurion University of the Negev, focusing on natural language processing as PI of the MeLeL lab. Yuval got his PhD at the Georgia Institute of Technology School of Interactive Computing as a Bloomberg Data Science PhD Fellow. Prior to this, he worked as a Research Engineer at Yahoo Labs and as a Computational Linguist at Ginger Software, and obtained an MA in Linguistics and a BSc in CS and Mathematics, both from Tel Aviv University. Yuval blogs (in Hebrew) about language matters on Dagesh Kal.
 website: https://www.yuvalpinter.com
-time: September 27, 2023; 11:00–12:00
+date: September 27, 2023
+time: 11:00–12:00
 location: Department of Computer Science (Celestijnlaan 200A) -- Java (room 5.152)
 #roomfinder: https://www.lmu.de/raumfinder/#/building/bw0000/map?room=000000116_
 img: https://avatars.githubusercontent.com/u/6660928?v=4

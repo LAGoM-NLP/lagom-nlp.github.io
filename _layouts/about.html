@@ -1,8 +1,6 @@
 ---
 layout: default
 ---
-
-<!-- about.html -->
 <div class="post">
     <article>
         <div style="overflow:auto">
@@ -39,15 +37,15 @@ layout: default
             {{ content }}
         </div>
 
-        {% if page.news -%}
+        {% if page.show_news -%}
             <!-- News -->
             {%- include news.html %}
         {%- endif %}
-        {% if page.selected_papers -%}
+        {% if page.show_selected_papers -%}
             <!-- Selected papers -->
             {%- include selected_papers.html %}
         {%- endif %}
-        {%- if page.social %}
+        {%- if page.show_socials %}
             <!-- Social -->
             <div class="social">
                 <div class="contact-icons">
@@ -57,7 +55,6 @@ layout: default
                 <div class="contact-note">
                     {{ site.contact_note }}
                 </div>
-
             </div>
         {%- endif %}
     </article>

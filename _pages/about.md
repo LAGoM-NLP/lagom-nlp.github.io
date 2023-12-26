@@ -14,9 +14,10 @@ profile:
   image_circular: false
   address: 
 
-news: false  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+show_news: true
+show_events: true
+show_selected_papers: false # includes a list of papers marked as "selected={true}"
+show_socials: true
 
 groups: [members, affiliated]
 members:
@@ -55,17 +56,22 @@ affiliated:
 <!-- What follows will be put after the description box (see the about.html template). -->
 
 <div id="main-body" class="projects">
+<!--
   <h2 class="category">News</h2>
   <ul>
     <li>No news yet. Stay tuned!</li>
   </ul>
+-->
+    {% if page.show_events %}
+    <h2 class="category">Events</h2>
+    <ul>
+        {%- for e in site.events reversed limit: 3 -%}
+            <li>{{e.date}}: <a href="{{e.url}}">{{e.title}}</a></li>
+        {%- endfor -%}
+    </ul>
+    {% endif %}
 
-  <h2 class="category">Events</h2>
-  <ul>
-    <li>No events yet. Stay tuned!</li>
-  </ul>
-
-  {%- for group in page.groups -%}
+    {%- for group in page.groups -%}
   <h2 class="category">{{page.[group].title}}</h2>
     <div class="grid">
       {%- for person in page.[group].people -%}
@@ -86,31 +92,8 @@ affiliated:
             </h2>
             <div class="card-text">
               {{person.description}}
-              <!-- <p style="margin-bottom: 0rem;">{{person.description}}</p> 
-              <ul class="network-icon" aria-hidden="true">
-              {% if person.website -%}
-                <li><a href="{{person.website}}"><i class="fas fa-globe"></i></a></li>
-              {%- endif -%}
-              {% if person.email -%}
-                <li><a role="button" class="email" style="color: var(--global-theme-color)"><i class="fas fa-envelope"></i></a></li>
-              {%- endif -%}
-              {% if person.googlescholar -%}
-                <li><a href="{{person.googlescholar}}"><i class="ai ai-google-scholar"></i></a></li>
-              {%- endif -%}
-              {% if person.github -%}
-                <li><a href="{{person.github}}"><i class="fab fa-github"></i></a></li>
-              {%- endif -%}
-              {% if person.twitter -%}
-                <li><a href="{{person.twitter}}"><i class="fab fa-twitter"></i></a></li>
-              {%- endif -%}
-            </ul>
-            {% if person.email -%}
-              <div class="email hidden">
-                <p>{{ person.email }}</p>
-              </div>
-            {%- endif -%} -->
-              </div>
             </div>
+          </div>
           </article>
       {%- endfor -%}
     </div>
