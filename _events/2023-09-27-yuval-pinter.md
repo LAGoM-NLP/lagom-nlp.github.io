@@ -9,7 +9,7 @@ website: https://www.yuvalpinter.com
 time: September 27, 2023; 11:00–12:00
 location: Department of Computer Science (Celestijnlaan 200A) -- Java (room 5.152)
 #roomfinder: https://www.lmu.de/raumfinder/#/building/bw0000/map?room=000000116_
-#img: assets/img/saif.png
+img: https://avatars.githubusercontent.com/u/6660928?v=4
 #imgalt: Portrait of Saif Mohammad
-#imgside: right
+imgside: right
 ---

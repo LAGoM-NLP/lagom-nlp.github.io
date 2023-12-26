@@ -23,7 +23,7 @@ members:
   title: Members
   people:
     - name: Miryam de Lhoneux
-      description: Prof. Dr., Head of LAGoM NLP
+      description: Professor and head of LAGoM NLP
       website: https://people.cs.kuleuven.be/~miryam.delhoneux/
       picture: https://media.licdn.com/dms/image/C4D03AQHPa7B6g4Ox3Q/profile-displayphoto-shrink_800_800/0/1549982999930?e=1709164800&v=beta&t=2CCKSDKBNkRWdmJNjWyc02FMJkwZPqHPtl7-yccPROo
     - name: Kushal J. Tatariya
@@ -44,7 +44,7 @@ members:
       picture: https://media.licdn.com/dms/image/C4D03AQG7nJOmd5_hug/profile-displayphoto-shrink_800_800/0/1549986124762?e=1709164800&v=beta&t=6OTo8MeyFuj7M7bikApnsiv1qVEi1OR-s00jhV8fbLI
 
 affiliated:
-  title: Affiliated members (e.g. co-supervisors, co-supervised or mentored external PhD students, guest researchers and visitors)
+  title: Affiliated members (e.g. guest researchers and visitors)
   people:
     - name: François Remy
       description: 

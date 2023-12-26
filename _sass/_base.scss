@@ -3,7 +3,6 @@
  ******************************************************************************/
 
 // Typography
-
 p, h1, h2, h3, h4, h5, h6, em, div, li, span {
   color: var(--global-text-color);
 }
@@ -677,17 +676,18 @@ html.transition *:after {
 
 // staff grid on main page
 .grid { 
-display: grid;
-grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-grid-gap: 10px;
-align-items: stretch;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 10px;
+    align-items: stretch;
 }
 
 // event descriptions
 .event-title {
   font-size: larger;
-  // color: var(--global-divider-color);
-  // font-weight: bolder;
+  //color: var(--global-divider-color);
+  font-weight: bolder;
+  font-style: italic;
 }
 .events {
   h3 {

@@ -6,13 +6,11 @@ description:
 nav: true
 nav_order: 5
 ---
-
-<!-- pages/events.md -->
-<!-- events are sorted by filename (reverse order) -->
 <div class="events">
-  {%- for event in site.events reversed -%}
-    <div class="event">
-	  {% include events.html %}
-    </div>
-  {%- endfor %}
+    <!-- events are sorted by filename (reverse order) -->
+    {%- for e in site.events reversed -%}
+        <div class="event">
+	        {% include event.html event=e %}
+        </div>
+    {%- endfor %}
 </div>

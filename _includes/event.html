@@ -1,5 +1,5 @@
-<!-- _includes/events.html -->
-
+{% assign event = include.event %}
+<hr>
 <h2 class="event-title" id="{{ event.anchor }}"><a href="{{ '#' | append: event.anchor }}">{{ event.title }}</a></h2>
 
 {% if event.speaker %}
@@ -28,9 +28,7 @@
   {% else %}
     {% assign imgclass = "event-pic-right" %}
   {% endif %}
-  <img src="{{ '../' | append: event.img }}"
-     alt="{{ event.imgalt }}"
-     class="event-pic {{ imgclass }}" />
+  <img src="{{ event.img }}" alt="{{ event.imgalt }}" class="event-pic {{ imgclass }}" />
 {% endif %}
 {% if event.bio %}
   <h3>Bio:</h3> {{ event.bio }}
