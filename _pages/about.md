@@ -129,8 +129,4 @@ affiliated:
 -->  
   <h2 class="category">Find us</h2>
   We are located at Celestijnenlaan 200A, 3001 Heverlee, Belgium.<br/>
-
-  <a href="https://github.com/lagom-nlp"><i class="fab fa-github"></i> LAGoM on GitHub</a><br/>
-  <a href="https://twitter.com/mdlhx"><i class="fab fa-twitter"></i> Miryam on X</a><br/>
-
 </div>
