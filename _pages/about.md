@@ -4,15 +4,19 @@ title: Home
 permalink: /
 subtitle: 
 
+description: >
+    Welcome!
+    We are the **Leuven AI Group on Multilingual NLP (LAGoM NLP)**, a research lab at the [Department of Computer Science](https://wms.cs.kuleuven.be/cs/english) at the University of Leuven (KU Leuven), directed by Prof. Dr. Miryam de Lhoneux.
+
 profile:
   align: right
-  image: script-L.png
+  image: logo/script-L_450px.png
   image_circular: false
   address: 
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+social: true  # includes social icons at the bottom of the page
 
 groups: [members, affiliated]
 members:
@@ -48,8 +52,7 @@ affiliated:
       picture: 
 ---
 
-Welcome!
-We are the **Leuven AI Group on Multilingual NLP (LAGoM NLP)**, a research lab at the [Department of Computer Science](https://wms.cs.kuleuven.be/cs/english) at the University of Leuven (KU Leuven), directed by Prof. Dr. Miryam de Lhoneux.
+<!-- What follows will be put after the description box (see the about.html template). -->
 
 <div id="main-body" class="projects">
   <h2 class="category">News</h2>
@@ -70,7 +73,7 @@ We are the **Leuven AI Group on Multilingual NLP (LAGoM NLP)**, a research lab a
             {% if person.picture -%}
               <img class="avatar" src="/assets/img/{{person.picture}}" alt="Portrait ({{person.name}})" width="auto" height="auto">
             {%- else -%}
-              <img class="avatar" src="/assets/img/script-L.png" alt="Portrait ({{person.name}})" width="auto" height="auto">
+              <img class="avatar" src="/assets/img/logo/script-L_450px.png" alt="Portrait ({{person.name}})" width="auto" height="auto">
             {%- endif -%}
           <div class="card-body">
             <!-- <h2 class="card-title">{{person.name}}</h2> -->
