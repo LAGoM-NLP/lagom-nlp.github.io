@@ -71,7 +71,7 @@ affiliated:
       {%- for person in page.[group].people -%}
           <article class="grid-item card">
             {% if person.picture -%}
-              <img class="avatar" src="/assets/img/{{person.picture}}" alt="Portrait ({{person.name}})" width="auto" height="auto">
+                <img class="avatar" src="{% if person.picture contains '://' %}{{person.picture}}{% else %}{{ person.picture | prepend: '/assets/img/' }}{% endif %}" alt="Portrait ({{person.name}})" width="auto" height="auto">
             {%- else -%}
               <img class="avatar" src="/assets/img/logo/script-L_450px.png" alt="Portrait ({{person.name}})" width="auto" height="auto">
             {%- endif -%}
