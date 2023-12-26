@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="post projects">
     <article>
         <!-- Description box with profile picture -->
         <div style="overflow:auto">
@@ -36,10 +36,10 @@ layout: default
         </div>
 
         <!-- Additional stuff inserted by about.md -->
-        <div class="projects clearfix">
+        <div class="clearfix">
             {{ content }}
         </div>
-
+    
         {% if page.show_news -%}
             <!-- News -->
             {%- include news.html listofposts=site.news title="News" %}
