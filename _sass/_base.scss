@@ -89,6 +89,8 @@ blockquote {
 
 .card {
   background-color: var(--global-card-bg-color);
+  -webkit-box-shadow: none;
+  box-shadow: none;
 
   img {
     width: 100%;
