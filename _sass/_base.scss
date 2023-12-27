@@ -14,10 +14,12 @@ body {  // header, main, footer
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+
+    // Background that falls behind the header and behind the margin between main and footer.
+    background: linear-gradient(142deg, rgba(255, 139, 0, 5%) 0%, rgba(30, 251, 255, 8%) 100%);
 }
 
 main {
-    background: linear-gradient(142deg, rgba(255, 139, 0, 5%) 0%, rgba(30, 251, 255, 8%) 100%);
     flex-grow: 1;  // Fill all available space.
 }
 
