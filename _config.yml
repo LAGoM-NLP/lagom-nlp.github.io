@@ -230,7 +230,6 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 # -----------------------------------------------------------------------------
 
 scholar:
-
   last_name: []
   first_name: []
 
@@ -254,7 +253,8 @@ scholar:
 
   query: "@*"
 
-# Filter out certain bibtex entry keywords used internally from the bib output
+# The following BibTeX keywords don't actually appear in the BibTeX standard.
+# They are used by the template for additional formatting, and will be filtered out when displaying the raw BibTeX entry itself.
 filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)

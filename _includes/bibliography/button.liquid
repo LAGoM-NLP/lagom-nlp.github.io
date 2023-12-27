@@ -1,0 +1,15 @@
+{% assign title       = include.title %}
+{% assign href        = include.href %}
+{% assign extra_class = include.extra_class %}
+{% assign same_tab    = include.same_tab %}
+
+<!-- if there is an href, add an asset prefix if it's not absolute. -->
+{% if href %}
+    {% unless href contains "://" %}
+        {% assign href = {{href | prepend: '/assets/pdf/' | relative_url}} %}
+    {% endunless %}
+    {% assign href_full = {{href | prepend: 'href="' | append: '"'}} %}
+{% else %}
+    {% assign href_full = "" %}
+{% endif %}
+<a {{href_full}} class="btn btn-sm z-depth-0 {% if extra_class %}{{extra_class}}{% endif %}" role="button" {% unless same_tab %}target="_blank"{% endunless %}>{{title}}</a>
