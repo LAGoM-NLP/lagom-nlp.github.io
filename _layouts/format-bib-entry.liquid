@@ -129,7 +129,7 @@
             {%- endif %}
             <!-- PDF priority: first a non-arXiv URL, then an arXiv URL, then a custom PDF. -->
             {%- if entry.url -%}
-                {% include bibliography/button.liquid title="URL" href="{{ entry.url }}" %}
+                {% include bibliography/button.liquid title="URL" href=entry.url %}
             {%- elsif entry.arxiv %}
                 {% include bibliography/button.liquid title="arXiv" href="http://arxiv.org/abs/{{ entry.arxiv }}" %}
             {%- elsif entry.pdf %}
