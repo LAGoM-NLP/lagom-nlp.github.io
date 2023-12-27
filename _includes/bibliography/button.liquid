@@ -6,9 +6,9 @@
 <!-- if there is an href, add an asset prefix if it's not absolute. -->
 {% if href %}
     {% unless href contains "://" %}
-        {% assign href = {{href | prepend: '/assets/pdf/' | relative_url}} %}
+        {% assign href = href | prepend: '/assets/pdf/' | relative_url %}
     {% endunless %}
-    {% assign href_full = {{href | prepend: 'href="' | append: '"'}} %}
+    {% assign href_full = href | prepend: 'href="' | append: '"' %}
 {% else %}
     {% assign href_full = "" %}
 {% endif %}
