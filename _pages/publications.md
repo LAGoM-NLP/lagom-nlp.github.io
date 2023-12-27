@@ -24,8 +24,7 @@ sections:
 {% for sec in page.sections %}
 <br>
 <div class="publications">
-
-## {{sec.title}}
+<h2>{{sec.title}}</h2>
 {% for y in page.years %}
     {% bibliography -f {{sec.filestem}} -q @*[year={{y}}]* %}
 {% endfor %}
