@@ -22,12 +22,12 @@ sections:
 #      filestem: theses
 ---
 {% for sec in page.sections %}
-    <div class="publication-category">
-        <h2>{{sec.title}}</h2>
-        {% for y in page.years %}
-            <!-- List for year {{y}}: -->
-            {% bibliography -f {{sec.filestem}} -q @*[year={{y}}]* %}
-        {% endfor %}
-    </div>
-    <hr>
+<div class="publication-category">
+    <h2>{{sec.title}}</h2>
+    {% for y in page.years %}
+        <!-- List for year {{y}}: -->
+        {% bibliography -f {{sec.filestem}} -q @*[year={{y}}]* %}
+    {% endfor %}
+</div>
+<hr>
 {% endfor %}
