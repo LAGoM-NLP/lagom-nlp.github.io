@@ -9,9 +9,9 @@
         {%- elsif entry.abbr -%}
             {%- if site.data.venues[entry.abbr] -%}
                 {%- assign venue_style = nil -%}
-            {%- if site.data.venues[entry.abbr].color != blank -%}
-                {%- assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' -%}
-            {%- endif -%}
+                {%- if site.data.venues[entry.abbr].color != blank -%}
+                    {%- assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' -%}
+                {%- endif -%}
                 <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %}><a
                         href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
             {%- else -%}
@@ -133,31 +133,31 @@
             {%- elsif entry.arxiv %}
                 {% include bibliography/button.liquid title="arXiv" href="http://arxiv.org/abs/{{ entry.arxiv }}" %}
             {%- elsif entry.pdf %}
-                {% include bibliography/button.liquid title="PDF" href="{{ entry.pdf }}" %}
+                {% include bibliography/button.liquid title="PDF" href=entry.pdf %}
             {%- endif %}
             {%- if entry.supp %}
-                {% include bibliography/button.liquid title="Supp" href="{{ entry.supp }}" %}
+                {% include bibliography/button.liquid title="Supp" href=entry.supp %}
             {%- endif %}
             {%- if entry.poster %}
-                {% include bibliography/button.liquid title="Poster" href="{{ entry.poster }}" %}
+                {% include bibliography/button.liquid title="Poster" href=entry.poster %}
             {%- endif %}
             {%- if entry.slides %}
-                {% include bibliography/button.liquid title="Slides" href="{{ entry.slides }}" %}
+                {% include bibliography/button.liquid title="Slides" href=entry.slides %}
             {%- endif %}
             {%- if entry.website %}
-                {% include bibliography/button.liquid title="Website" href="{{ entry.website }}" %}
+                {% include bibliography/button.liquid title="Website" href=entry.website %}
             {%- endif %}
             {%- if entry.blog %}
-                {% include bibliography/button.liquid title="Blog" href="{{ entry.blog }}" %}
+                {% include bibliography/button.liquid title="Blog" href=entry.blog %}
             {%- endif %}
             {%- if entry.code %}
-                {% include bibliography/button.liquid title="Code" href="{{ entry.code }}" %}
+                {% include bibliography/button.liquid title="Code" href=entry.code %}
             {%- endif %}
             {%- if entry.html %}
-                {% include bibliography/button.liquid title="HTML" href="{{ entry.html }}" %}
+                {% include bibliography/button.liquid title="HTML" href=entry.html %}
             {%- endif %}
             {% if entry.video %}
-                {% include bibliography/button.liquid title="Video" href="{{ entry.video }}" %}
+                {% include bibliography/button.liquid title="Video" href=entry.video %}
             {% endif %}
         </div>
 
