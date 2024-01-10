@@ -152,6 +152,9 @@ feed_limit: 5          # leave blank to include all the news in the `_news` fold
 # Jekyll settings
 # -----------------------------------------------------------------------------
 
+# We need this so posts can have a date in the future
+future: true
+
 # Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
