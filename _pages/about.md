@@ -11,7 +11,7 @@ description: >
 
 profile:
   align: right
-  image: logo/script-L_450px.png
+  image: logo/L-cursive-rainbow-transparent-450px.png
   image_circular: false
   address: 
 

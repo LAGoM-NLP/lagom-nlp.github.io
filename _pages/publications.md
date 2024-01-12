@@ -14,7 +14,7 @@ sections:
 #      filestem: conferences
 #    - title: Journal articles
 #      filestem: journals
-    - title: Workshop submissions
+    - title: Workshop papers
       filestem: workshops
 #    - title: PhD theses
 #      filestem: dissertations
