@@ -168,8 +168,7 @@ blockquote {
 .navbar {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
-  background-color: var(--global-bg-color);
-  opacity: 0.95;
+  background-color: rgb(from var(--global-bg-color) r g b / 0.75);  // Unpack hex color into rgb, then give opacity, then interpret as rgb.
 }
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
