@@ -6,23 +6,23 @@ members:
     - name: Miryam de Lhoneux
       description: Professor and head of LAGoM NLP
       website: https://people.cs.kuleuven.be/~miryam.delhoneux/
-      picture: miryam.jpg
+      picture: /cdn/images/jpg/2024/everyone/miryam.jpg
     - name: Kushal J. Tatariya
       description: PhD student (2022–)
       website: 
-      picture: kushal.jpg
+      picture: /cdn/images/jpg/2024/everyone/kushal.jpg
     - name: Thomas Bauwens
       description: PhD student (2023–)
       website: https://bauwenst.github.io/
-      picture: thomas.jpg
+      picture: /cdn/images/jpg/2024/everyone/thomas.jpg
     - name: Wessel Poelman
       description: PhD student (2023–)
       website: https://wesselpoelman.nl/
-      picture: wessel.jpg
+      picture: /cdn/images/jpg/2024/everyone/wessel.jpg
     - name: Artur Kulmizev
       description: Postdoc (2023–)
       website: https://akulmizev.com/
-      picture: artur.jpg
+      picture: /cdn/images/jpg/2024/everyone/artur.jpg
 
 affiliated:
   title: Affiliated members
@@ -30,4 +30,4 @@ affiliated:
     - name: François Remy
       description: Guest reseacher (2024)
       website: https://fremycompany.com/
-      picture: françois.jpg
+      picture: /cdn/images/jpg/2024/everyone/françois.jpg
