@@ -59,7 +59,7 @@ Edit [_pages/about.md](https://github.com/mainlp/mainlp.github.io/blob/main/_pag
       picture: mainlp-logo-150.png [or replace with name.jpg]
 ```
 
-To include a picture name.jpg, add it to [assets/img](https://github.com/mainlp/mainlp.github.io/tree/main/assets/img).
+~~To include a picture name.jpg, add it to [assets/img](https://github.com/mainlp/mainlp.github.io/tree/main/assets/img).~~
 
 To add a new staff section, add its name to the groups list towards the top of the page (`groups: [staff, support, admin, affiliated]`), and then define the new section like, e.g., `staff` is defined:
 
