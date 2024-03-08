@@ -11,7 +11,7 @@ description: >
 
 profile:
   align: right
-  image: images/jpg/2024/everyone/L-cursive-rainbow-transparent-450px.png
+  image: images/png/2024/everyone/L-cursive-rainbow-transparent-450px.png
   image_circular: false
   address: 
 
