@@ -12,8 +12,8 @@ sections:
       filestem: preprints
     - title: Accepted to TACL
       filestem: accepted_to_TACL
-#    - title: Conference papers
-#      filestem: conferences
+    - title: Conference papers
+      filestem: conferences
 #    - title: Journal articles
 #      filestem: journals
     - title: Workshop papers
