@@ -16,7 +16,7 @@ footer_text: >
 keywords: # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: images/png/2024/everyone/favicon_64px.png  # the emoji used as the favicon (alternatively, provide image path)
+icon: images/png/2024/everyone/favicon_withbackground_64px.png  # the emoji used as the favicon (alternatively, provide image path)
 
 url: https://lagom-nlp.github.io # the base hostname & protocol for your site
 baseurl: / # the subpath of your site, e.g. /blog/
@@ -258,7 +258,7 @@ scholar:
 
 # The following BibTeX keywords don't actually appear in the BibTeX standard.
 # They are used by the template for additional formatting, and will be filtered out when displaying the raw BibTeX entry itself.
-filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview]
+filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, video]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
 max_author_limit: 3  # leave blank to always show all authors
