@@ -128,7 +128,7 @@ blockquote {
 
 .profile {
   margin-left: 1rem;
-  width: 100%;
+  width: auto;
 
   .address {
     margin-bottom: 5px;
@@ -141,14 +141,14 @@ blockquote {
   }
 }
 
-@media (min-width: 576px) {
-  .profile {
-    width: 30%;
-    .address {
-      p { display: block; }
-    }
-  }
-}
+// @media (min-width: 576px) {  // Change profile width when screen is wider than 576px. Can be done automatically with a flex grid.
+//   .profile {
+//     width: 30%;
+//     .address {
+//       p { display: block; }
+//     }
+//   }
+// }
 
 .post-description {
   margin-bottom: 2rem;

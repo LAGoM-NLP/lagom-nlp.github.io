@@ -8,7 +8,7 @@
                     src="{% if person.picture contains '://' %}{{person.picture}}{% else %}{{ person.picture | prepend: '/cdn/' }}{% endif %}"
                     alt="Portrait ({{person.name}})" width="auto" height="auto">
             {%- else -%}
-                <img class="avatar" src="/cdn/images/png/2024/everyone/L-cursive-rainbow-transparent-450px.png" alt="Portrait ({{person.name}})" width="auto"
+                <img class="avatar" src="/cdn/images/png/2024/everyone/lagom-logo-L.png" alt="Portrait ({{person.name}})" width="auto"
                     height="auto">
             {%- endif -%}
             <div class="card-body">

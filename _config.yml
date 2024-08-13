@@ -7,8 +7,8 @@ first_name: LAGoM
 middle_name: 
 last_name: NLP
 email: 
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Leuven AI Group of Multilingual NLP
+description: >  # Text that will be previewed when linking to the website. (The ">" symbol means to ignore newlines until "footer_text:")
+  Homepage of KU Leuven's research unit on computational linguistics, the Leuven AI Group of Multilingual NLP.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -16,7 +16,7 @@ footer_text: >
 keywords: # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: images/png/2024/everyone/favicon_withbackground_64px.png  # the emoji used as the favicon (alternatively, provide image path)
+icon: /cdn/images/png/2024/everyone/favicon_withbackground_64px.png  # the emoji used as the favicon (alternatively, provide image path)
 
 url: https://lagom-nlp.github.io # the base hostname & protocol for your site
 baseurl: / # the subpath of your site, e.g. /blog/
