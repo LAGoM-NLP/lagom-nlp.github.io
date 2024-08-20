@@ -1,5 +1,5 @@
 
-groups: [members, affiliated]
+groups: [members, affiliated, former]
 members:
   title: Members
   people:
@@ -26,6 +26,14 @@ members:
 
 affiliated:
   title: Affiliated members
+  people:
+    - name: Zahirridin Rustamov
+      description: Joint PhD student (2024–)
+      website: 
+      picture: images/jpg/2024/everyone/zahir.jpeg
+
+former:
+  title: Former members
   people:
     - name: François Remy
       description: Guest reseacher (2024)
