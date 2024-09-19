@@ -10,14 +10,14 @@ years: [2024, 2023, 2022]
 sections:
     - title: Latest preprints
       filestem: preprints
-    - title: Accepted to TACL
-      filestem: accepted_to_TACL
     - title: Conference papers
       filestem: conferences
-#    - title: Journal articles
-#      filestem: journals
+    - title: Journal articles
+      filestem: journals
     - title: Workshop papers
       filestem: workshops
+#    - title: Accepted to TACL
+#     filestem: accepted_to_TACL
 #    - title: PhD theses
 #      filestem: dissertations
 #    - title: Master's theses
