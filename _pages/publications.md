@@ -12,7 +12,7 @@ sections:
       filestem: preprints
     - title: Conference papers
       filestem: conferences
-    - title: Journal articles
+    - title: Journal papers
       filestem: journals
     - title: Workshop papers
       filestem: workshops
