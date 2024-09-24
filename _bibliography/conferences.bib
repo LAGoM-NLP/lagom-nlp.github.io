@@ -1,20 +1,33 @@
 @string{acl = {Association for Computational Linguistics,}}
 
 @inproceedings{bauwens-delobelle-2024-bpe,
-    title = "{BPE}-knockout: Pruning Pre-existing {BPE} Tokenisers with Backwards-compatible Morphological Semi-supervision",
-    author = "Bauwens, Thomas  and Delobelle, Pieter",
-    booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
-    month = jun,
-    year = "2024",
-    address = "Mexico City, Mexico",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2024.naacl-long.324",
-    pages = "5810--5832",
-    abstract = "Byte-pair encoding (BPE) has become the default subword tokeniser in language models (LMs), allowing the representation of an infinite space of text with a finite set of units. Yet, BPE training is unsupervised, receiving no explicit information about a language{'}s morphology. This results in a subword vocabulary wherein many units are a concatenation of partial morphemes, preventing their formation as tokens. This, in turn, causes consistent intra-word patterns to be displayed inconsistently to downstream models, and bloats the vocabulary, hence requiring unnecessary embedding storage. In this paper, we address this issue by identifying blameworthy BPE merges and removing the resulting subwords from the BPE vocabulary, without impeding further use of merges that relied on them. We find that our method, BPE-knockout, is effective at making BPE{'}s segmentation positions adhere better to derivational and compound boundaries in English, Dutch and German, and improves token-based tasks in Dutch RoBERTa models, indicating that a tokeniser{'}s adherence to morphology impacts downstream models. We demonstrate the latter not only by training LMs from scratch, but also by continuing the pre-training of existing LMs. This proves promising, showing that suboptimal tokenisers can be remedied whilst salvaging training cost of downstream LMs.",
+  title       = {{BPE}-knockout: Pruning Pre-existing {BPE} Tokenisers with Backwards-compatible Morphological Semi-supervision},
+  author      = {Bauwens, Thomas  and Delobelle, Pieter},
+  booktitle   = {Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)},
+  month       = jun,
+  year        = {2024},
+  address     = {Mexico City, Mexico},
+  publisher   = {Association for Computational Linguistics},
+  url         = {https://aclanthology.org/2024.naacl-long.324},
+  pages       = {5810--5832},
+  abstract    = {Byte-pair encoding (BPE) has become the default subword tokeniser in language models (LMs), allowing the representation of an infinite space of text with a finite set of units. Yet, BPE training is unsupervised, receiving no explicit information about a language{'}s morphology. This results in a subword vocabulary wherein many units are a concatenation of partial morphemes, preventing their formation as tokens. This, in turn, causes consistent intra-word patterns to be displayed inconsistently to downstream models, and bloats the vocabulary, hence requiring unnecessary embedding storage. In this paper, we address this issue by identifying blameworthy BPE merges and removing the resulting subwords from the BPE vocabulary, without impeding further use of merges that relied on them. We find that our method, BPE-knockout, is effective at making BPE{'}s segmentation positions adhere better to derivational and compound boundaries in English, Dutch and German, and improves token-based tasks in Dutch RoBERTa models, indicating that a tokeniser{'}s adherence to morphology impacts downstream models. We demonstrate the latter not only by training LMs from scratch, but also by continuing the pre-training of existing LMs. This proves promising, showing that suboptimal tokenisers can be remedied whilst salvaging training cost of downstream LMs.},
+  abbr        = {NAACL},
+  bibtex_show = true,
+  slides      = {https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2024-05-19/yl43q5v/Beamer_notimestamps.pdf},
+  video       = {https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2024-05-19/9123qlr/NAACL2024_BPE-knockout.mp4},
+  poster      = {https://lagom-nlp.github.io/cdn/posters/pdf/2024/thomas/poster_bauwens2024_bpe-knockout.pdf}
+}
 
-    abbr = {NAACL},
-    bibtex_show = true,
-    slides = "https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2024-05-19/yl43q5v/Beamer_notimestamps.pdf",
-    video = "https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2024-05-19/9123qlr/NAACL2024_BPE-knockout.mp4",
-    poster = {https://lagom-nlp.github.io/cdn/posters/pdf/2024/thomas/poster_bauwens2024_bpe-knockout.pdf}
+
+@inproceedings{ploeger2024what,
+  title       = {What Is ''{{Typological Diversity}}'' in {{NLP}}?},
+  author      = {Ploeger*, Esther and Poelman*, Wessel and {de Lhoneux}, Miryam and Bjerva, Johannes},
+  booktitle   = {To appear at the 2024 Conference on Empirical Methods in Natural Language Processing},
+  year        = {2024},
+  month       = nov,
+  publisher   = {Association for Computational Linguistics},
+  url         = {http://arxiv.org/abs/2402.04222},
+  abstract    = {The NLP research community has devoted increased attention to languages beyond English, resulting in considerable improvements for multilingual NLP. However, these improvements only apply to a small subset of the world's languages. Aiming to extend this, an increasing number of papers aspires to enhance generalizable multilingual performance across languages. To this end, linguistic typology is commonly used to motivate language selection, on the basis that a broad typological sample ought to imply generalization across a broad range of languages. These selections are often described as being 'typologically diverse'. In this work, we systematically investigate NLP research that includes claims regarding 'typological diversity'. We find there are no set definitions or criteria for such claims. We introduce metrics to approximate the diversity of language selection along several axes and find that the results vary considerably across papers. Furthermore, we show that skewed language selection can lead to overestimated multilingual performance. We recommend future work to include an operationalization of 'typological diversity' that empirically justifies the diversity of language samples.},
+  abbr        = {EMNLP},
+  bibtex_show = true
 }
