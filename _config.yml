@@ -68,8 +68,9 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 
 github_username: lagom-nlp  # your GitHub user name
-gitlab_username: # your GitLab user name
 twitter_username: lagom_nlp # your Twitter handle
+bluesky_username: lagom-nlp
+gitlab_username: # your GitLab user name
 linkedin_username: # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
