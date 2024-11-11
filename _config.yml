@@ -329,7 +329,7 @@ bootstrap:
     js: "sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8="
 fontawesome:
   version: "6.6.0"
-  integrity: "sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4="
+  integrity: "sha256-5eIC48iZUHmSlSUz9XtjRyK2mzQkHScZY1WdMaoz74E="  # Update this with version changes using https://www.srihash.org/
 jquery:
   version: "3.6.0"
   integrity: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
