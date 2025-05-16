@@ -10,7 +10,7 @@ members:
     - name: Kushal J. Tatariya
       description: PhD student (2022–)
       website: 
-      picture: images/jpg/2024/everyone/kushal.jpg
+      picture: images/jpg/2024/everyone/kushal2.jpg
     - name: Thomas Bauwens
       description: PhD student (2023–)
       website: https://bauwenst.github.io/
@@ -19,10 +19,6 @@ members:
       description: PhD student (2023–)
       website: https://wesselpoelman.nl/
       picture: images/jpg/2024/everyone/wessel.jpg
-    - name: Artur Kulmizev
-      description: Postdoc (2023–)
-      website: https://akulmizev.com/
-      picture: images/jpg/2024/everyone/artur.jpg
 
 affiliated:
   title: Affiliated members
@@ -35,6 +31,11 @@ affiliated:
 former:
   title: Former members
   people:
+    - name: Artur Kulmizev
+      description: Postdoc (2023–2024)
+      website: https://akulmizev.com/
+      picture: images/jpg/2024/everyone/artur.jpg
+
     - name: François Remy
       description: Guest reseacher (2024)
       website: https://fremycompany.com/
