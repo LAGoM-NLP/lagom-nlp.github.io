@@ -64,3 +64,46 @@
   abbr = {NoDaLiDa},
   bibtex_show = true
 }
+
+@inproceedings{bauwens-etal-2025-grampa,
+    title = "{GR}a{MP}a: Subword Regularisation by Skewing Uniform Segmentation Distributions with an Efficient Path-counting {M}arkov Model",
+    author = "Bauwens, Thomas  and
+      Kacz{\'e}r, David  and
+      De Lhoneux, Miryam",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.1180/",
+    pages = "24228--24257",
+    ISBN = "979-8-89176-251-0",
+    abbr = {ACL},
+    abstract = "Stochastically sampling word segmentations from a subword tokeniser, also called subword regularisation, is a known way to increase robustness of language models to out-of-distribution inputs, such as text containing spelling errors. Recent work has observed that usual augmentations that make popular deterministic subword tokenisers stochastic still cause only a handful of all possible segmentations to be sampled. It has been proposed to uniformly sample across these instead, through rejection sampling of paths in an unweighted segmentation graph. In this paper, we argue that uniformly random segmentation in turn skews the distributions of certain segmentational properties (e.g. token lengths and amount of tokens produced) away from uniformity, which still ends up hiding meaningfully diverse tokenisations. We propose an alternative uniform sampler using the same segmentation graph, but weighted by counting the paths through it. Our sampling algorithm, GRaMPa, provides hyperparameters allowing sampled tokenisations to skew towards fewer, longer tokens. Furthermore, GRaMPa is single-pass, guaranteeing significantly better computational complexity than previous approaches relying on rejection sampling. We show experimentally that language models trained with GRaMPa outperform existing regularising tokenisers in a data-scarce setting on token-level tasks such as dependency parsing, especially with spelling errors present.",
+    bibtex_show = true
+}
+
+@inproceedings{vandermeerschen-de-lhoneux-2025-supervised,
+    title = "Supervised and Unsupervised Probing of Shortcut Learning: Case Study on the Emergence and Evolution of Syntactic Heuristics in {BERT}",
+    author = "Vandermeerschen, Elke  and
+      De Lhoneux, Miryam",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.499/",
+    pages = "9592--9604",
+    ISBN = "979-8-89176-256-5",
+    abbr = {ACL (Findings)},
+    abstract = "Contemporary language models (LMs) such as BERT (Devlin et al., 2019, T5 (Raffel et al., 2023), GPT-4 (OpenAI, 2023), have exhibited remarkable capabilities, effectively addressing long-standing challenges in the field. However, these models rely on shortcut learning, using a decision rule that relies on superficial cues that are spuriously correlated with the labels (Geirhos et al., 2020). In this research, we focus on the reliance on a specific type of shortcuts, namely syntactic heuristics, in BERT when performing Natural Language Inference (NLI), a representative task in Natural Language Understanding (Jeretic et al., 2020). By making use of two probing methods, one supervised, one unsupervised, we investigate where these shortcuts emerge, how they evolve and how they impact the latent knowledge of the LM. Our findings reveal that syntactic heuristics are absent in pretrained models but emerge and evolve as the model is finetuned with datasets of increasing size. The adoption of these shortcuts varies across different hidden layers, with specific layers closer to the output contributing more to this phenomenon. Despite the model{'}s reliance on shortcuts during inference, it retains information relevant to the task, and our supervised and unsupervised probes process this information differently.",
+    bibtex_show = true
+}
