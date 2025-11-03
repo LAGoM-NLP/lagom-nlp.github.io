@@ -107,3 +107,25 @@
     abstract = "Contemporary language models (LMs) such as BERT (Devlin et al., 2019, T5 (Raffel et al., 2023), GPT-4 (OpenAI, 2023), have exhibited remarkable capabilities, effectively addressing long-standing challenges in the field. However, these models rely on shortcut learning, using a decision rule that relies on superficial cues that are spuriously correlated with the labels (Geirhos et al., 2020). In this research, we focus on the reliance on a specific type of shortcuts, namely syntactic heuristics, in BERT when performing Natural Language Inference (NLI), a representative task in Natural Language Understanding (Jeretic et al., 2020). By making use of two probing methods, one supervised, one unsupervised, we investigate where these shortcuts emerge, how they evolve and how they impact the latent knowledge of the LM. Our findings reveal that syntactic heuristics are absent in pretrained models but emerge and evolve as the model is finetuned with datasets of increasing size. The adoption of these shortcuts varies across different hidden layers, with specific layers closer to the output contributing more to this phenomenon. Despite the model{'}s reliance on shortcuts during inference, it retains information relevant to the task, and our supervised and unsupervised probes process this information differently.",
     bibtex_show = true
 }
+
+@inproceedings{poelman-etal-2025-confounding,
+    title = "Confounding Factors in Relating Model Performance to Morphology",
+    author = "Poelman, Wessel  and
+      Bauwens, Thomas  and
+      de Lhoneux, Miryam",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.369/",
+    pages = "7273--7298",
+    ISBN = "979-8-89176-332-6",
+    abstract = "The extent to which individual language characteristics influence tokenization and language modeling is an open question. Differences in morphological systems have been suggested as both unimportant and crucial to consider (Cotterell et al., 2018; Gerz et al., 2018a; Park et al., 2021, inter alia). We argue this conflicting evidence is due to confounding factors in experimental setups, making it hard to compare results and draw conclusions. We identify confounding factors in analyses trying to answer the question of whether, and how, morphology relates to language modeling. Next, we re-assess three hypotheses by Arnett {\&} Bergen (2025) for why modeling agglutinative languages results in higher perplexities than fusional languages: they look at morphological alignment of tokenization, tokenization efficiency, and dataset size. We show that each conclusion includes confounding factors. Finally, we introduce token bigram metrics as an intrinsic way to predict the difficulty of causal language modeling, and find that they are gradient proxies for morphological complexity that do not require expert annotation. Ultimately, we outline necessities to reliably answer whether, and how, morphology relates to language modeling.",
+    abbr = {EMNLP},
+    bibtex_show = true
+}
