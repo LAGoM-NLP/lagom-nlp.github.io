@@ -23,10 +23,10 @@ members:
 affiliated:
   title: Affiliated members
   people:
-    - name: Zahirridin Rustamov
+    - name: Zahiriddin Rustamov
       description: Joint PhD student (2024–)
-      website: 
-      picture: images/jpg/2024/everyone/zahir.jpeg
+      website: https://zahiriddin.com
+      picture: https://zahiriddin.com/images/profile.jpg
 
 former:
   title: Former members
