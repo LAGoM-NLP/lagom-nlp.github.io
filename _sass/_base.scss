@@ -766,6 +766,10 @@ html.transition *:after {
 }
 
 // homepage news
+.news-table {
+    box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.3);
+}
+
 .news-item th {
   white-space: nowrap;
   text-align: right;
