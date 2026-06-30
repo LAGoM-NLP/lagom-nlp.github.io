@@ -764,3 +764,9 @@ html.transition *:after {
         font-style: italic;    
     }
 }
+
+// homepage news
+.news-item th {
+  white-space: nowrap;
+  text-align: right;
+}
