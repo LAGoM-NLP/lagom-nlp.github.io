@@ -147,7 +147,7 @@ collections:
     permalink: /events/:path/
 
 feed_scrollable: true  # adds a vertical scroll bar if there are more than 3 news items
-feed_limit: 5          # leave blank to include all the news in the `_news` folder
+feed_limit:            # leave blank to include all the news in the `_news` folder
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
