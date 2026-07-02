@@ -12,7 +12,7 @@ date: May 26, 2026
 time: 15:00–16:00
 location: Department of Computer Science (Celestijnlaan 200A) -- Perl (room 5.120)
 #roomfinder: https://www.lmu.de/raumfinder/#/building/bw0000/map?room=000000116_
-img: https://media.licdn.com/dms/image/v2/C5603AQFVw3jh5-cvoA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1553358920520?e=1784160000&v=beta&t=EVsSETcldGtEftuuluJ3nrlKjln9-u6_bCl8x9aHybQ
+img: https://raw.githubusercontent.com/LAGoM-NLP/cdn/refs/heads/master/images/jpg/2026/common/benjamin.jpeg
 #imgalt: Portrait of Saif Mohammad
 imgside: right
 ---

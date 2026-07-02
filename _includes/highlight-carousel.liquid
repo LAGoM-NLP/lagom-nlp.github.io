@@ -1,7 +1,7 @@
 {% if site.data.featured_projects.size > 0 -%}
+<div>
+<h2>{{ include.title }}</h2>
 <div class="highlight-carousel">
-    <h2>{{ include.title }}</h2>
-
 {% for project in site.data.featured_projects %}
     <a class="inherited-link" href="{{ project.url }}">
     <div class="highlight-card">
@@ -14,6 +14,7 @@
     </div>
     </a>
 {% endfor %}
+</div>
 </div>
 {%- endif %}
 
