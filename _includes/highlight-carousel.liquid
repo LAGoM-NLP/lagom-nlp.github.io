@@ -1,0 +1,19 @@
+{% if site.data.featured_projects.size > 0 -%}
+<div class="highlight-carousel">
+    <h2>{{ include.title }}</h2>
+
+{% for project in site.data.featured_projects %}
+    <a class="inherited-link" href="{{ project.url }}">
+    <div class="highlight-card">
+        <div class="highlight-thumb"><img src="{{ project.image }}" alt="{{ project.title }}"></div>
+        <div class="highlight-content">
+	    <h3>{{ project.title }}</h3>
+	    <div class="highlight-meta">{{ project.venue }} · {{ project.year }}</div>
+            <p>{{ project.description }}</p>
+        </div>       
+    </div>
+    </a>
+{% endfor %}
+</div>
+{%- endif %}
+

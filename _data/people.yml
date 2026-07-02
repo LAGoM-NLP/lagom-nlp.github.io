@@ -19,6 +19,10 @@ members:
       description: PhD student (2023–)
       website: https://wesselpoelman.nl/
       picture: images/jpg/2024/everyone/wessel.jpg
+    - name: Coleman Haley
+      description: Postdoc (2026-)
+      website: https://colemanhaley.com/
+      picture: images/jpg/2026/common/coleman.jpg
 
 affiliated:
   title: Affiliated members

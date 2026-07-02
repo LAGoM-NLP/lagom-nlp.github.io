@@ -16,6 +16,7 @@ profile:
   address: 
 
 show_name: false
+show_highlights: true
 show_news: true
 show_events: true
 show_selected_papers: false # includes a list of papers marked as "selected={true}"

@@ -44,6 +44,10 @@ layout: default
             {{ content }}
         </div>
     
+        {% if page.show_highlights -%}
+            <!-- Highlighted projects -->
+            {%- include highlight-carousel.liquid title="Recent highlights" %}
+        {%- endif %}
         {% if page.show_news -%}
             <!-- News -->
             {%- include internal-feed.html listofposts=site.news title="News" %}
