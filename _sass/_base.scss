@@ -822,5 +822,5 @@ html.transition *:after {
 }
 .inherited-link {
     color: inherit;          /* Use the normal text color */
-    text-decoration: none;   /* Remove underline */
+    text-decoration: none !important;   /* Remove underline */
 }
