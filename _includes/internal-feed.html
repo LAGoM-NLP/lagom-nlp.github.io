@@ -4,7 +4,7 @@
 <h2>{{pagetitle}}</h2>
 {% if listofposts != blank -%} 
     {%- assign feed_size = listofposts | size -%}
-    <div class="news-table table-responsive" {% if site.feed_scrollable and feed_size > 3 %}style="max-height: 10vw"{% endif %}>
+    <div class="news-table table-responsive" {% if site.feed_scrollable and feed_size > 3 %}style="max-height: 15vh"{% endif %}>
         <table class="table-sm table-borderless">
         {%- assign feed = listofposts | reverse -%}
         {% if site.feed_limit %}
